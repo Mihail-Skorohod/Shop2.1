@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+}
+h1, h2 {
+    color: #333;
+}
+section {
+    margin-bottom: 2rem;
+}
+ul {
+    padding-left: 2rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.social-icons svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: centerwrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem;
+    }
+    .login-container {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .profile-info, .order-history {
+        font-size: 0.9rem;
+    }
+}

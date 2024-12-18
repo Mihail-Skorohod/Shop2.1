@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик - Інтернет-магазин</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="categories.html">Категорії</a></li>
+                <li><a href="cart.html">Кошик</a></li>
+                <li><a href="delivery.html">Доставка та оплата</a></li>
+                <li><a href="reviews.html">Відгуки</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="checkout.html">Оформити заказ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Кошик</h1>
+        <div class="cart">
+            <div class="cart-item">
+                <img src="goods-filled-svgrepo-com.svg" alt="Товар 1">
+                <div class="item-details">
+                    <h2>Товар 1</h2>
+                    <p>Ціна: 100 грн</p>
+                    <input type="number" value="1" min="1">
+                </div>
+                <button class="btn remove-btn">Видалити</button>
+            </div>
+            <div class="cart-item">
+                <img src="marketplace-old-svgrepo-com.svg" alt="Товар 2">
+                <div class="item-details">
+                    <h2>Товар 2</h2>
+                    <p>Ціна: 1500 грн</p>
+                    <input type="number" value="1" min="1">
+                </div>
+                <button class="btn remove-btn">Видалити</button>
+            </div>
+            <div class="cart-item">
+                <img src="shopping-package-svgrepo-com.svg" alt="Товар 2">
+                <div class="item-details">
+                    <h2>Товар 3</h2>
+                    <p>Ціна: 2500 грн</p>
+                    <input type="number" value="1" min="1">
+                </div>
+                <button class="btn remove-btn">Видалити</button>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h2>Загальна сума: 4100 грн</h2>
+            <a href="checkout.html" class="btn">Оформити замовлення</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Інтернет-магазин. Усі права захищені.</p>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
+
